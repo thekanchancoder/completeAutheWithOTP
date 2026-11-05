@@ -41,4 +41,7 @@ GET /api/auth/logout-to-all
 
 authRouter.get("/logout-to-all", authController.logoutAllSessions);
 
+
+authRouter.get("/verify-email", authController.verifyemail);
+
 export default authRouter;
